@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve Tickets</title>
+    <link rel="icon" href="assets/images/aero.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <div class="header1">
+        <h1>Cloud Cruise</h1>
+    </div>
+
+    <div class="container">
+        <img src="../assets/images/airplane-flying.png" alt="Airplane" class="airplane">
+        <div class="inputField">
+            <h1>Passenger Name</h1>
+
+            <div class="form-inline">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+            </div>
+
+            <div class="form-inline">
+                <label for="middle-name">Middle Name:</label>
+                <input type="text" id="middle-name" name="middle-name" placeholder="Middle Name">
+            </div>
+
+            <div class="form-inline">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+            </div>
+
+            <h1>Date of Birth</h1>
+
+            <div class="form-inline">
+                <label for="month">Month:</label>
+                <select id="month"></select>
+
+                <label for="day" style="margin-left: 15px;">Day:</label>
+                <select id="day"></select>
+            </div>
+
+            <div class="form-inline">
+                <label for="year">Year:</label>
+                <select id="year"></select>
+            </div>
+
+            <button onclick="getPassengerName()">Next</button>
+        </div>
+    </div>
+
+    <script src="../js/main_script.js"></script>
+
+</body>
+
+</html>

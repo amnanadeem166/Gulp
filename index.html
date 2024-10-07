@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Cruise</title>
+    <link rel="icon" href="assets/images/globe.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Welcome</h1>
+        <h2>to</h2>
+        <h1>Cloud Cruise</h1>
+        <h4>"Wings to Explore, Find and Book Your Ideal Flight"</h4>
+    </div>
+
+    <video class="video-background" autoplay muted loop>
+        <source src="assets/videos/background.mp4" type="video/mp4">
+    </video>
+
+
+    <div class="mainpage">
+        <button class="btn" onclick="navigateToPage()">Book your Tickets</button>
+    </div>
+
+    <script>
+        function navigateToPage() {
+            window.location.href = 'pages/main.html';
+        }
+    </script>
+</body>
+
+</html>
